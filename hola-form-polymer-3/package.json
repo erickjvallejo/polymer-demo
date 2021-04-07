@@ -1,0 +1,6 @@
+{
+  "name": "login",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0"
+  }
+}

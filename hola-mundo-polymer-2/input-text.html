@@ -1,0 +1,32 @@
+<dom-module id="input-text">
+
+    <template>
+        Mi nombre es <input type="text" value="{{name}}">
+    </template>
+
+    <script>
+        Polymer({
+            is: "input-text",
+            properties: {
+                name: {
+                    type: String,
+                    value: "Default"
+                }
+            },
+
+            /**
+             * Use for one-time configuration of your component after local DOM is
+             * initialized.
+             */
+            ready: function () {
+
+                setTimeout(() => {
+                    this.name = "URiel"
+                }, 4000)
+
+            }
+        })
+    </script>
+
+
+</dom-module>

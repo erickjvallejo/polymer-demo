@@ -1,0 +1,7 @@
+{
+  "name": "hola-mundo",
+  "short_name": "hola-mundo",
+  "description": "hola mundo descripcion",
+  "start_url": "/",
+  "display": "standalone"
+}
